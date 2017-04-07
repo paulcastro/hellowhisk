@@ -1,2 +1,7 @@
 package:
-  name: defaulttest
+  name: hellowhisk
+  actions:
+    greeting:
+      location: src/greeting.js
+    httpGet:
+      location: src/httpGet.swift
